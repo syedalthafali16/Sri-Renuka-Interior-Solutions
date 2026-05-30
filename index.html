@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Sri Renuka Interior Solutions | Premium Interior Design</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header>
+    <nav>
+      <!-- Left side: Navigation Links (Desktop) -->
+      <div class="nav-left">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+      <!-- Center: Logo -->
+      <div class="nav-center">
+        <div class="logo">
+          <h1>SRI RENUKA</h1>
+          <span>interior solutions</span>
+        </div>
+      </div>
+      
+      <!-- Right side: Theme Toggle + Mobile Menu Button -->
+      <div class="nav-right">
+        <button id="themeBtn" class="theme-toggle" aria-label="Dark/Light mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="menuBtn" class="mobile-menu-btn" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Navigation Menu (Full Screen Overlay) -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <div class="mobile-nav-container">
+      <div class="mobile-nav-header">
+        <div class="mobile-logo">
+          <h3>SRI RENUKA</h3>
+          <span>interior solutions</span>
+        </div>
+        <button id="closeMenuBtn" class="close-menu-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="#services"><i class="fas fa-cogs"></i> Services</a></li>
+        <li><a href="#portfolio"><i class="fas fa-images"></i> Portfolio</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ==================== HERO SECTION WITH BACKGROUND IMAGE ==================== -->
+    <section id="home" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge"><i class="fas fa-gem"></i> CRAFTING DREAMS, BUILDING SPACES</span>
+            <h1>Where Vision Meets<br>Timeless Interiors</h1>
+            <p>From concept to completion — we transform houses into breathtaking homes, offices into landmarks. Creativity, precision, and personalized service.</p>
+        <div class="btn-group">
+            <a href="#portfolio" class="btn-primary"><i class="fas fa-images"></i> Explore Designs</a>
+            <a href="#contact" class="btn-outline"><i class="fas fa-comment-dots"></i> Request a Quote</a>
+        </div>
+        </div>
+        <div class="scroll-indicator">
+        <span>Scroll to explore</span>
+        <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT US SECTION ==================== -->
+    <section id="about">
+      <div class="container">
+        <h2><i class="fas fa-info-circle"></i> About Us</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>At <strong>SRI RENUKA INTERIOR SOLUTIONS</strong>, we combine <strong>creativity, craftsmanship, and attention to detail</strong> to create spaces that leave a lasting impression. Our commitment to excellence, integrity, and personalized service sets us apart in the industry.</p>
+            <br>
+            <p>Collaboration is at the heart of our process. We believe the best designs are born from deep understanding of our clients' needs. Our team works closely, taking time to listen, understand preferences, and translate ideas into beautiful, harmonious spaces.</p>
+            <br>
+            <p><i class="fas fa-check-circle"></i> 10+ years of design excellence &nbsp;|&nbsp; <i class="fas fa-check-circle"></i> 500+ happy homes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section id="services">
+      <div class="container">
+        <h2><i class="fas fa-cogs"></i> What We Do</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-key"></i></div>
+            <h3>TURN KEY</h3>
+            <p>We Design and Execute the project from sourcing to Installation. Everything taken care by our team — hassle-free delivery.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-users"></i></div>
+            <h3>BE A MAVEN</h3>
+            <p>We Design the Project and help you source materials, vendors, and manage On-Site execution for quality & timelines.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-cube"></i></div>
+            <h3>3D DESIGN</h3>
+            <p>Detailed rendering of your space with precise 2D Drawings. Visualize every corner before execution.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PORTFOLIO / GALLERY SECTION ==================== -->
+    <section id="portfolio">
+      <div class="container">
+        <h2><i class="fas fa-images"></i> Our Signature Spaces</h2>
+        
+        <!-- Category Filter Buttons -->
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="living"><i class="fas fa-couch"></i> Living Rooms</button>
+          <button class="filter-btn" data-filter="furniture"><i class="fas fa-chair"></i> Furniture</button>
+          <button class="filter-btn" data-filter="kitchen"><i class="fas fa-utensils"></i> Kitchens</button>
+          <button class="filter-btn" data-filter="bedroom"><i class="fas fa-bed"></i> Bedrooms</button>
+          <button class="filter-btn" data-filter="kids"><i class="fas fa-child"></i> Kids Rooms</button>
+          <button class="filter-btn" data-filter="3d"><i class="fas fa-cube"></i> 3D Designs</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryContainer"></div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact">
+      <div class="container contact-wrapper">
+        <div class="contact-info">
+          <h3>Have any questions? <br>Get In Touch!</h3>
+          <div class="contact-details">
+            <p><i class="fas fa-phone-alt"></i> +91 87920 07203</p>
+            <p><i class="fas fa-envelope"></i> srirenuka.interiors@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Hyderabad & Bangalore | Pan India Service</p>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h4><i class="fas fa-pen-alt"></i> Let's Design Together</h4>
+          <input type="text" id="contactName" placeholder="Your Name">
+          <input type="email" id="contactEmail" placeholder="Email / Phone">
+          <button id="submitBtn" class="btn-primary"><i class="fas fa-paper-plane"></i> Send Inquiry</button>
+          <p class="form-note"><i class="fas fa-clock"></i> We'll get back within 24hrs</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="container">
+      <p><i class="far fa-copyright"></i> 2025 SRI RENUKA INTERIOR SOLUTIONS — Crafting elegance, delivering excellence. All rights reserved.</p>
+      <p><i class="fab fa-instagram"></i> @sirrenuka_interiorselutions | <i class="fas fa-star"></i> Where dreams take shape</p>
+    </div>
+  </footer>
+
+  <!-- Modal for Image Preview -->
+  <div id="imageModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-img" id="modalImage" alt="Interior Preview">
+    <div class="modal-caption" id="modalCaption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
