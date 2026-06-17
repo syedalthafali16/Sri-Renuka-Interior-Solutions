@@ -1,50 +1,54 @@
-##Sri Renuka Interior Designs
+# 🏠 Sri Renuka Interior Designs – Business Website
 
-A modern and responsive business website built for an interior design company to showcase its services, completed projects, and contact information.
+**Sri Renuka Interior Designs** is a modern and responsive business website built using HTML, CSS, and JavaScript. 
+The website was developed to help an interior design company establish an online presence and showcase its services, completed projects, and business information.
 
-##🚀 About The Project
+---
 
-I built this website for a local interior design business to help them establish an online presence and showcase their work professionally.
+## 🌟 Project Overview
 
-The project focuses on clean design, smooth user experience, and responsive layouts that work across all devices.
+This project was built for a real interior design business to provide a professional digital presence and make it easier for potential customers to explore services and contact the company.
 
-##✨ Features
+It focuses on clean design, responsive layouts, and a smooth user experience across different devices.
 
-- Responsive design
-- Modern landing page
-- Service showcase
-- Project gallery
-- About section
-- Contact section
-- Smooth scrolling navigation
-- Mobile-friendly layout
+> ⚠️ **Note:** This project is currently under development and is being improved based on client feedback.
 
-##🛠️ Built With
+---
 
-- HTML5
-- CSS3
-- JavaScript
-- Netlify
+## 🛠️ Technologies Used
 
-##🎯 What I Learned
+* **HTML5** – Website structure
+* **CSS3** – Styling and responsive design
+* **JavaScript** – Interactive functionality
+* **Netlify** – Deployment and hosting
 
-While building this project, I gained experience in:
+---
 
-- Converting business requirements into a functional website
-- Creating responsive layouts
-- Improving UI/UX design
-- Deploying websites with Netlify
-- Working with real client feedback
+## ✨ Features
 
+* 🏡 Modern landing page
+* 🎨 Interior design service showcase
+* 🖼️ Project portfolio/gallery section
+* 📖 About company section
+* 📞 Contact section
+* 📱 Fully responsive design
+* ⚡ Smooth navigation and interactions
+* 🌐 Live deployment with Netlify
 
-🔗 Live Demo
+---
 
-srirenukainteriorsolutions.netlify.app
+## 🎯 Purpose
 
-📌 Project Status
+The goal of this project is to provide a professional website for an interior design business while gaining real-world experience in client communication, requirement gathering, frontend development, and deployment.
 
-Currently under active development. New sections, design improvements, and client-requested changes are being added regularly.
+---
 
-👨‍💻 Author
+## 🌐 Live Demo
 
-Syed Althaf Ali
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Website-brightgreen?style=for-the-badge&logo=google-chrome)](https://srirenukainteriorsolutions.netlify.app)
+
+---
+
+## 👨‍💻 Author
+
+Built with 💻 by **Syed Althaf Ali**
