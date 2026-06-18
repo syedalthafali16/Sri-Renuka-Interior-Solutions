@@ -1,2 +1,2 @@
 *.css linguist-vendored
-*. javascript linguist-vendored
+*.javascript linguist-vendored
